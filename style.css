@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    border:solid;
+    width: 100%;
+    height: 10vh;
+    background: black;
+    opacity: 0.7;
+    min-width: 645px;
+    position: fixed;
+    
+}
+nav{
+    padding: 23px;
+}
+nav>a{
+    padding: 18px;
+    color: aliceblue;
+    text-decoration: none;
+    font-family:cursive;
+    font-size: 20px;
+}
+header:hover{
+    background-color:rgb(39, 37, 34);
+}
+nav>a:hover{
+    background-color: rgb(168, 165, 165);
+    color: black;
+    border-radius: 20%;
+}
+.kexc{
+    width: 100%;
+    height: 10vh;
+    min-width: 439px;
+}
+.nkarov{
+    border: solid rgb(0, 0, 0);
+    width:100%;
+    height: 90vh;
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-width: 645px;
+
+}
+.nkarov>h1{
+    border:solid rgb(77, 72, 72);
+    border-radius: 20%;
+    background-color: rgb(155, 144, 129);
+    position: absolute;
+    color:white;
+    left:40%;
+    top:40%;
+    font-size: 45px;
+    min-width: 307px;
+    min-height: 59px;
+    
+}
+.nkarov>button{
+    position: absolute;
+    width:17%;
+    height: 9%;
+    background-color: rgb(5, 4, 4);
+    color: aliceblue;
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top:61%;
+    left:40%;
+    min-width: 111px;
+    min-height: 64px;
+    
+}
+.nkarov>button:hover{
+    background-color: bisque;
+    color:black;
+    border:rgb(155, 144, 129);
+}
+.nkarov>h2{
+    position: absolute;
+    color: #fff;
+    font-family:monospace;
+    bottom: 0;
+    left: 3%;
+    min-width: 240px;
+}
+.tableclass{
+    width:100%;
+    height: 100vh;
+    border: solid;
+    background: black;
+    min-width: 645px;
+    min-height: 663px;
+}
+.table{
+   background: white;
+   width:80%;
+   height: 80vh;
+   position: static;
+   margin-top: 8%;
+    margin-left: 10%;
+    border:solid red;
+    box-shadow: 18px -19px 12px rgb(145, 13, 13);
+    min-width: 513px;
+    min-height: 570px;
+   
+   
+}
+.tableclass>h2{
+    color:wheat;
+    position: absolute;
+    left: 43%;
+    bottom: -9%;
+    font-size: 35px;
+    min-width: 190px;
+    min-height: 40px;
+}
+.table>p{
+    font-size: larger;
+}
+.table>span{
+    font-size: larger;
+}
+.karmir{
+    text-align: center;
+}
+.errord{
+    padding-left: 35%;
+}
+.erkrord{
+    padding-left: 9%;
+}
+.karmir{
+    font-size: 25px;
+    
+}
+.p{
+    border:solid rgb(128, 126, 126) ;
+    background-color: rgb(143, 137, 137);
+}
+.rose{
+    width: 100%;
+    height: 100vh;
+    background: rgb(82, 50, 50);
+    text-align: center;
+    min-width: 645px;
+    min-height: 800px;
+    
+}
+.photo{
+    margin-left: 22%;
+    width:55%;
+    height: 40%;
+    background-image: url(https://www.w3schools.com/w3images/onepage_restaurant.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* min-width: 660px;
+    min-height: 800px; */
+}
+.rose>table{
+    width:50%;
+    position: static;
+    margin-left: 30%;
+}
+.rose>h2{
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+.rose>p{
+    text-align: center;
+    padding-left: 13%;
+    padding-right: 13%;
+}
+.rose{
+    color: wheat;
+}
+.rose>td{
+    color: #fff;
+}
+.td{
+    color: #fff;
+}
+.bigphoto{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://www.w3schools.com/w3images/map.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.contact{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(105, 104, 104);
+    text-align: left;
+    padding-left: 20%;
+    padding-top: 3%;
+}
+.fyi{
+    border:solid black;
+    background: black;
+    color: #fff;
+}
+.contact>h2{
+    font-size: 28px;
+}
+.contact>input{
+    width:60%;
+    height: 8%;
+    font-size: 20px;
+    color: rgb(54, 56, 56);
+}
+.contact>button{
+    width:60%;
+    height: 8%;
+    font-size: 20px;
+    color: rgb(54, 56, 56);
+}
+footer{
+    width: 100%;
+    height: 30vh;
+    background: black;
+    color: #fff;
+    font-size: 20px;
+    padding-left: 40%;
+    padding-top:5%;
+}
+.w{
+    color: #fff;
+}
